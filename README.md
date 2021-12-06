@@ -6,6 +6,10 @@ this repo has some little generic games I made in c
 
 Simple hangman game taking a list of words in sources.txt file
 
+## Ball
+
+A simple ball inspired by DVD loadscreen
+
 ## gameOfLife
 
 Game of life, game, search the rules on internet if you dont already know them.
