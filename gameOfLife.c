@@ -14,8 +14,8 @@
 #include <Windows.h>
 #include <conio.h>
 
-#define TAILLE_SOUS_MATRICE 40
-#define TAILLE_SUR_MATRICE 42             /* Taille de la matrice contenant les cellules + 2 pour la bordure */
+#define TAILLE_SOUS_MATRICE 20
+#define TAILLE_SUR_MATRICE 22             /* Taille de la matrice contenant les cellules + 2 pour la bordure */
 
 #define KEY_UP 72
 #define KEY_DOWN 80
