@@ -25,13 +25,13 @@
 #define KEY_SUPPR 83
 #define KEY_ENTER 13
 
-#define KNRM  "\x1B[0m"
-#define KRED  "\x1B[31m"
-#define KYEL  "\x1B[33m"
-#define KGRN  "\x1B[32m"
-#define KBLU  "\x1B[34m"
-#define KMAG  "\x1B[35m"
-#define KCYN  "\x1B[36m"
+#define KNRM "\x1B[0m"
+#define KRED "\x1B[31m"
+#define KYEL "\x1B[33m"
+#define KGRN "\x1B[32m"
+#define KBLU "\x1B[34m"
+#define KMAG "\x1B[35m"
+#define KCYN "\x1B[36m"
 
 /****************************************/
 /********* P R O T O T Y P E S **********/
@@ -205,13 +205,13 @@ void customize_grid(int matrice[TAILLE_SUR_MATRICE][TAILLE_SUR_MATRICE]) {
             gotoLigCol(i, j*2);
         }
         if (choice == KEY_ENTER) {
-            if (matrice[i-1][j-1] == 0) {
+            if (matrice[i][j] == 0) {
                 printf("%s#", KGRN);
-                matrice[i-1][j-1] = 1;
+                matrice[i][j] = 1;
             }
             else {
                 printf("%s.", KRED);
-                matrice[i-1][j-1] = 0;
+                matrice[i][j] = 0;
             }
         }
     }
